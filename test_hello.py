@@ -6,7 +6,7 @@ def test_hello():
     print('*** Response from unit test: {}'.format(response))
 
     assert response.status_code == 200
-    assert response.data == b'This is Devops Assignment - Bits Pilani!'
+    assert response.data == b'Github Actions demo!'
 
 def test():
     pass
